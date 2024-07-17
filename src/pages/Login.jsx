@@ -117,7 +117,7 @@ const Login = () => {
     <div>
       <Header/>
       {/* <h1 className='text-center text-3xl font-bold'>Welcome Back</h1> */}
-      <div className='flex md:p-4 p-3 justify-center mx-auto left-0 right-0 my-10 border-4 md:w-4/12 w-9/12 py-7'>
+      <div className='flex md:p-4 p-7 justify-center mx-auto left-0 right-0 my-10 border-4 border-gray-400 md:w-4/12 w-9/12 py-7'>
 
         {/* Form for login or sign-up */}
         <form onSubmit={(e) => e.preventDefault()} className='flex flex-col gap-4'>
