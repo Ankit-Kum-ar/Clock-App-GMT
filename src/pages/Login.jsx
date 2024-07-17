@@ -108,7 +108,7 @@ const Login = () => {
       const email = error.customData.email;
       // The AuthCredential type that was used.
       const credential = GoogleAuthProvider.credentialFromError(error);
-      setMessageError(errorMessage);
+      setErrorMessage("Google Sign-in Problem");
       // ...
     });
 
